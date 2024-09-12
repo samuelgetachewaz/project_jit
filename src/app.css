@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+
+.section__padding {
+    padding: 4rem 6rem;
+}
+
+.p__paragraph {
+    font-family:sans-serif;
+    color: rgba(250, 235, 215, 0.778);
+    font-weight: 100;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    line-height: 27px;
+    font-size: 20px;
+}
+
+.custom__button { 
+    color: aliceblue;
+    background: rgba(255, 255, 255,30%);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 16px;
+    padding: 0.6rem 2rem;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.span__golden {
+    color: #FFE605;
+}
+
+.headtext{
+    font-size: 50px;
+    color: #fff;
+    line-height: 4rem;
+    word-spacing: 1px;
+    text-align: center;
+}
+
+
+.gradient__bg {
+    /* global 94%+ browsers support */
+    background: linear-gradient(90deg, rgba(19, 108, 181, 1) 0%, rgba(73, 187, 189, 1) 100%);
+}
+ 

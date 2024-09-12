@@ -1,0 +1,107 @@
+
+
+.app__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    
+}
+
+.app__navbar-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.app__navbar-logo img {
+    flex: 1;
+    width: 100px;
+    border-radius: 50%;
+    padding: 0 0.5rem;
+    cursor: pointer;
+}
+
+.app__navbar-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.app__navbar-links li {
+    margin: 1rem;
+}
+
+.app__navbar-links li:hover {
+    color: azure;
+}
+
+.app__navbar-login {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+}
+
+.app__navbar-menu {
+    display: none;
+}
+
+.app__navbar-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+
+    text-align: end;
+    background: linear-gradient(90deg, rgba(19, 108, 181, 1) 0%, rgba(73, 187, 189, 1) 100%);
+    padding: 1rem;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    margin-top: 0.5rem;
+    min-width: 210px;
+    border-radius: 5px;
+}
+
+
+
+.app__navbar-container-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+    flex-direction: column;
+}
+
+.app__navbar-container-links li {
+    margin: 1rem;
+}
+
+.app__navbar-container-links li:hover {
+    color: azure;
+}
+
+@media screen and (max-width: 1150px) {
+    .app__navbar-links, 
+    .app__navbar-login {
+        display: none;
+    }
+    .app__navbar-menu {
+        display: flex;
+    }
+    .app__navbar-container {
+        top: 80px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .app__navbar {
+        padding: 1rem;
+    }
+    .app__navbar-logo img {
+        width:80px;
+    }
+}
