@@ -1,0 +1,38 @@
+.app__upload {
+  background: hsla(81, 96%, 48%, 0.728);
+}
+.app__upload-container {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .app__upload-container.drag-active {
+    border-color: #4caf50; /* Highlight when dragging */
+  }
+  
+  .app__upload-input {
+    display: none; 
+  }
+  
+  .custom-file-label {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .custom-file-label:hover {
+    background-color: #ddd;
+  }
+  
+  h3 {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #666;
+  }
+  

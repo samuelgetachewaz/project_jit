@@ -10,8 +10,8 @@ const Header1 = () => {
         </h1>
         <h2 style={{color: '#fff'}}> ምሳሌ 8፥10</h2>
         <p className='p__paragraph'>
-        "የማይጸልይ ሰው ቅፅር የሌላት ሀገርን ይመስላል ያንን ማንም 
-         እየገባ እንዲዘርፈው እርሱም የተሰጠውን ፀጋ ያጣል"  ቅዱስ ማር ይስሀቅ
+        የማይጸልይ ሰው ቅፅር የሌላት ሀገርን ይመስላል ያንን ማንም 
+        እየገባ እንዲዘርፈው እርሱም የተሰጠውን ፀጋ ያጣል"  ቅዱስ ማር ይስሀቅ
         </p>
         <div>
             <button className='custom__button'>Join for free</button>
