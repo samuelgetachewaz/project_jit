@@ -1,6 +1,6 @@
 
 const getCurrentUser = () => {
-    // Example: Logic to get the current user
+  // change the role to display different links
     return { username: 'JohnDoe', role: 'student' };
   };
   
@@ -18,7 +18,7 @@ const hasRole = (requiredRole) => {
 };
 
 export default {
- 
+
   getCurrentUser,
   getUserRole,
   hasRole

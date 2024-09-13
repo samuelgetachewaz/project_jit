@@ -17,12 +17,12 @@ const Menu = () => {
             {user.role === 'student' && (
               <>
                 <li  ><Link to="/student/exam-results">Exam Results</Link></li>
-                <li><Link to="/student/question-bank">Question Bank</Link></li>
+                <li><Link to="/student/question-bank">Questions</Link></li>
                 <li><Link to="/student/reference-books">Reference Books</Link></li>
                 <li><Link to="/student/courses">Courses</Link></li>
-                <li><Link to="/student/upload-assignments">Upload Assignments</Link></li>
+                <li><Link to="/student/upload-assignments">Assignments</Link></li>
                 <li><Link to="/student/events">Events</Link></li>
-                {/* <li><Link to="/student/feedback">Feedback</Link></li> */}
+                <li><Link to="/student/feedback">Feedback</Link></li>
               </>
             )}
 
@@ -55,7 +55,7 @@ const Menu = () => {
 
 
 const Navbar = () => {
-   
+
   const [toggle, setToggle] = React.useState(false);
   return (
     <div className='app__navbar__main gradient__bg'>

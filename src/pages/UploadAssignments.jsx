@@ -31,7 +31,6 @@ const handleIconClick = () => {
     }
   };
 
-  // Simulate the file upload using mock JSON
   const handleFileUpload = () => {
     if (selectedFile) {
       const fileData = {
@@ -39,11 +38,9 @@ const handleIconClick = () => {
         fileSize: selectedFile.size,
       };
 
-      // Simulate a backend response by updating mock JSON
       const updatedFiles = [...mockFiles, fileData];
       setMockFiles(updatedFiles);
 
-      // Simulate clearing file input
       setFileName('No file chosen');
       setSelectedFile(null);
 
@@ -53,13 +50,12 @@ const handleIconClick = () => {
     }
   };
 
-
+  
   return (
     <div className='app__upload padding__section'>
       <div className='app__upload-container'>
         <h1 className='headtext'>Upload Your Assignment</h1>
         
-        {/* Click icon to open file input */}
         <FaPlus 
           className='app__upload-icon' 
           color='#455' 
@@ -83,7 +79,6 @@ const handleIconClick = () => {
           Upload File
         </button>
 
-        {/* Display the mock uploaded files */}
         <div className="app__upload-mock-data">
           <h2>Uploaded Files (Mock Data):</h2>
           {mockFiles.length > 0 ? (

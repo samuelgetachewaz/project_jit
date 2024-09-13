@@ -1,5 +1,5 @@
 .app__upload {
-  background: hsla(81, 96%, 48%, 0.728);
+  background: hsla(189, 99%, 54%, 0.906);
 }
 .app__upload-container {
     border: 2px dashed #ccc;
@@ -9,10 +9,7 @@
     transition: border-color 0.3s ease;
   }
   
-  .app__upload-container.drag-active {
-    border-color: #4caf50; /* Highlight when dragging */
-  }
-  
+
   .app__upload-input {
     display: none; 
   }

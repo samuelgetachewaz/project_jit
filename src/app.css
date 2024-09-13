@@ -22,7 +22,7 @@ a {
     text-transform: capitalize;
     font-feature-settings: 'tnum' on, 'lnum' on;
     line-height: 27px;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .custom__button { 
